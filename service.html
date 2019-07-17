@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.1/css/mdb.min.css" rel="stylesheet">
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.1/js/mdb.min.js"></script>
+    <!-- <style>
+        .inputstl {
+            padding: 9px;
+            border: solid 1px #4B718B;
+            outline: 0;
+            background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #CDDBE4), to(#FFFFFF));
+            background: -moz-linear-gradient(top, #FFFFFF, #CDDBE4 1px, #FFFFFF 25px);
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+            -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+            -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+        }
+    </style> -->
+    <style>
+        body {
+            background-image: url('../../img/bg.jpg')
+        }
+    </style>
+
+</head>
+
+<body id="body">
+    <div class="modal fade" id="modalContactForm" tabindex="1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title w-100 font-weight-bold">Services</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                </div>
+                <div class="modal-body mx-3">
+                    <!-- <div class="md-form mb-5">
+                        <i class="fas fa-user prefix grey-text"></i>
+                        <input type="text" id="form34" class="form-control validate">
+                        <label data-error="wrong" data-success="right" for="form34">Your name</label>
+                    </div> -->
+                    <form id="service_form" action="/" method="POST">
+                        <div class="md-form mb-5">
+                            <i class="fas fa-envelope prefix grey-text"></i>
+                            <input type="text" id="form29" class="form-control validate" placeholder="Title" name="Title">
+
+                        </div>
+
+                        <div class="md-form mb-5">
+                            <i class="fas fa-link prefix grey-text"></i>
+                            <input type="url" id="form32" class="form-control validate" placeholder="Url" name="link">
+
+                        </div>
+
+                        <div class="md-form">
+                            <i class="fas fa-info-circle prefix grey-text"></i>
+                            <textarea type="text" id="form8" class="md-textarea form-control" rows="4" placeholder="Description" name="description"></textarea>
+
+                        </div>
+
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button class="btn btn-unique" type="submit">Add Service <i class="fas fa-paper-plane-o ml-1"></i></button>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center">
+        <a href="" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalContactForm">Launch
+      Add service form</a>
+    </div>
+    <!-- <script>
+        jQuery("#service_form").submit(function(event) {
+            jQuery.post('/', $("#formId").serialize(), function(data) {
+                console.log("fyghjlk;");
+                console.log(data) //data is the response from the backend
+            });
+            event.preventDefault();
+        });
+    </script> -->
+</body>
+
+</html>
