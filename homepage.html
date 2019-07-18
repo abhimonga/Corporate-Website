@@ -45,7 +45,13 @@
                     <li><a href="#intro">Home</a></li>
                     <li><a href="#about">Our Mission</a></li>
                     <li><a href="#vision">Our Vision</a></li>
-                    <li><a href="#services">Services</a></li>
+                    <li class="drop-down"><a href="#services">Services</a>
+                        <ul>
+                            <li><a href="#services">Service1</a></li>
+                            <li><a href="#services">Service2</a></li>
+                            <li><a href="#services">Service3</a></li>
+                        </ul>
+                    </li>
                     <li><a href="#team">Team</a></li>
                     <li><a href="#footer">Contact Us</a></li>
                 </ul>
@@ -102,7 +108,7 @@
             </div>
 
         </section>
-        <section id="about">
+        <section id="about" class="section-bg">
 
             <div class="container">
                 <div class="row">
@@ -132,7 +138,7 @@
             </div>
 
         </section>
-        <section id="services" class="section-bg">
+        <section id="services">
             <div class="container">
 
                 <header class="section-header">
@@ -158,13 +164,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-                        <div class="box">
-                            <div class="icon" style="background: #e6fdfc;"><i class="ion-ios-paper-outline" style="color: #3fcdc7;"></i></div>
-                            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-                            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-                        </div>
-                    </div>
+
                     <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
                         <div class="box">
                             <div class="icon" style="background: #eafde7;"><i class="ion-ios-speedometer-outline" style="color:#41cf2e;"></i></div>
@@ -180,74 +180,18 @@
                             <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
-                        <div class="box">
-                            <div class="icon" style="background: #ecebff;"><i class="ion-ios-clock-outline" style="color: #8660fe;"></i></div>
-                            <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-                            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-                        </div>
-                    </div>
+
 
                 </div>
 
             </div>
         </section>
-        <header class="bg-primary text-center py-5 mb-4">
-            <div class="container">
-                <h1 class="font-weight-light text-white">Meet the Team</h1>
-            </div>
-        </header>
 
-        <!-- Page Content -->
-        <div class="container">
-            <div class="row">
-                <!-- Team Member 1 -->
-                <div class="col-xl-3 col-md-6 mb-4">
-                    <div class="card border-0 shadow">
-                        <img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
-                        <div class="card-body text-center">
-                            <h5 class="card-title mb-0">Team Member</h5>
-                            <div class="card-text text-black-50">Web Developer</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Team Member 2 -->
-                <div class="col-xl-3 col-md-6 mb-4">
-                    <div class="card border-0 shadow">
-                        <img src="https://source.unsplash.com/9UVmlIb0wJU/500x350" class="card-img-top" alt="...">
-                        <div class="card-body text-center">
-                            <h5 class="card-title mb-0">Team Member</h5>
-                            <div class="card-text text-black-50">Web Developer</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Team Member 3 -->
-                <div class="col-xl-3 col-md-6 mb-4">
-                    <div class="card border-0 shadow">
-                        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" class="card-img-top" alt="...">
-                        <div class="card-body text-center">
-                            <h5 class="card-title mb-0">Team Member</h5>
-                            <div class="card-text text-black-50">Web Developer</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Team Member 4 -->
-                <div class="col-xl-3 col-md-6 mb-4">
-                    <div class="card border-0 shadow">
-                        <img src="https://source.unsplash.com/ZI6p3i9SbVU/500x350" class="card-img-top" alt="...">
-                        <div class="card-body text-center">
-                            <h5 class="card-title mb-0">Team Member</h5>
-                            <div class="card-text text-black-50">Web Developer</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- /.row -->
 
-        </div>
-        <!-- /.container -->
 
-        <!-- <section id="team" class="section-bg">
+
+
+        <section id="team" class="section-bg">
             <div class="container">
                 <div class="section-header">
                     <h3>Team</h3>
@@ -258,7 +202,7 @@
 
                     <div class="col-lg-3 col-md-6 wow fadeInUp">
                         <div class="member">
-                            <img src="img/team-1.jpg" class="img-fluid" alt="Director">
+                            <img src="img/download.jpg" class="img-fluid" alt="Director">
                             <div class="member-info">
                                 <div class="member-info-content">
                                     <h4>Lorem ipsum</h4>
@@ -276,7 +220,7 @@
 
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="member">
-                            <img src="img/team-2.jpg" class="img-fluid" alt="Additional Director">
+                            <img src="img/download.jpg" class="img-fluid" alt="Additional Director">
                             <div class="member-info">
                                 <div class="member-info-content">
                                     <h4>Lorem Ipsum</h4>
@@ -291,14 +235,133 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="member">
+                            <img src="img/download.jpg" class="img-fluid" alt="Additional Director">
+                            <div class="member-info">
+                                <div class="member-info-content">
+                                    <h4>Lorem Ipsum</h4>
+                                    <span> Developer</span>
+                                    <div class="social">
+                                        <a href=""><i class="fa fa-twitter"></i></a>
+                                        <a href=""><i class="fa fa-facebook"></i></a>
+                                        <a href=""><i class="fa fa-google-plus"></i></a>
+                                        <a href=""><i class="fa fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="member">
+                            <img src="img/download.jpg" class="img-fluid" alt="Additional Director">
+                            <div class="member-info">
+                                <div class="member-info-content">
+                                    <h4>Lorem Ipsum</h4>
+                                    <span>Manager</span>
+                                    <div class="social">
+                                        <a href=""><i class="fa fa-twitter"></i></a>
+                                        <a href=""><i class="fa fa-facebook"></i></a>
+                                        <a href=""><i class="fa fa-google-plus"></i></a>
+                                        <a href=""><i class="fa fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
 
             </div>
         </section>
-         -->
+        <footer id="footer" class="footer-bg">
+            <div class="footer-top">
+                <div class="container">
+
+                    <div class="row">
+
+                        <div class="col-lg-6">
+
+                            <div class="row">
+
+                                <div class="col-lg-6">
+
+                                    <div class="footer-info">
+                                        <h3>ABRNS</h3>
+                                        <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet
+                                            volutpat consequat mauris nunc congue.</p>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="footer-links">
+                                        <h4>Useful Links</h4>
+                                        <ul>
+                                            <li><a href="#">Home</a></li>
+                                            <li><a href="#">About us</a></li>
+                                            <li><a href="#">Services</a></li>
+                                            <li><a href="#">Terms of service</a></li>
+                                            <li><a href="#">Privacy policy</a></li>
+                                        </ul>
+                                    </div>
+
+
+
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-6">
+
+                            <div class="footer-links">
+                                <h4>Contact Us</h4>
+                                <p>
+                                    Lorem<br> Ipsem.dmow 535022<br> kamova <br>
+                                    <strong>Phone:</strong> +91 987654321<br>
+                                    <strong>Email:</strong> info@abcd.com<br>
+                                </p>
+                            </div>
+                            <div class="social-links">
+                                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                                <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                                <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+            </div>
+
+            <div class="container">
+                <div class="copyright">
+                    &copy; Copyright <strong>Rapid</strong>. All Rights Reserved
+                </div>
+                <div class="credits">
+                    <!--
+                  All the links in the footer should remain intact.
+                  You can delete the links only if you purchased the pro version.
+                  Licensing information: https://bootstrapmade.com/license/
+                  Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Rapid
+                -->
+                    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                </div>
+            </div>
+        </footer>
+        <!-- #footer -->
+
 
         <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
         <script src="lib/jquery/jquery.min.js"></script>

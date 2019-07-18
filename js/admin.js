@@ -12,6 +12,7 @@ const client = new MongoClient(uri, { useNewUrlParser: true });
 var app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(reqpath));
+var Service = require('./temp');
 console.log(reqpath);
 app.post('/', function(req, res) {
 
@@ -38,6 +39,13 @@ app.post('/', function(req, res) {
         client.close();
     })
 });
+// app.get('/'), (req, res) => {
+//     Service.find().then((service) => {
+//         res.send({ service });
+//     }, (err) => {
+//         console.log(err);
+//     });
+// }
 app.listen(port, () => {
     console.log(`System is on port  ${port}`);
 });
