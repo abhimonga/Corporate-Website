@@ -22,6 +22,7 @@
     "homepage": "https://github.com/abhimonga/Corporate-Website#readme",
     "dependencies": {
         "body-parser": "^1.19.0",
+        "ejs": "^2.6.2",
         "express": "^4.17.1",
         "http": "0.0.0",
         "jQuery": "^1.7.4",

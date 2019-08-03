@@ -27,19 +27,12 @@
 
     <!-- Main Stylesheet File -->
     <link href="css/style.css" rel="stylesheet">
-    <script src="../parser.js"></script>
+    <script src="ABRNS\js\parser.js"></script>
 
 </head>
 
 <body>
-    <ul>
-        <% data.forEach(function(data) { %>
-            <li>
-                <%= data.title %>
-                    <%= data.description %>
-            </li>
-            <% }); %>
-    </ul>
+
 
     <header id="header">
 
@@ -134,7 +127,6 @@
                             <div class="icon" style="background: #fceef3;"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
                             <h4 class="title"><a href="">{{title}}</a></h4>
                             <p class="description">{{description}}</p>
-                            <button>Learn More</button>
                         </div>
                     </div>
                 </script>
