@@ -454,6 +454,15 @@ h6 {
     font-family: "Montserrat", sans-serif;
 }
 
+.why-header h3 {
+    font-size: 36px;
+    color: #035962;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+}
+
 .pricing-header h3 {
     font-size: 36px;
     color: #035962;
@@ -505,6 +514,15 @@ h6 {
     font-size: 15px;
     padding-bottom: 60px;
     color: #fff;
+    width: 50%;
+}
+
+.why-header p {
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+    padding-bottom: 60px;
+    color: #035962;
     width: 50%;
 }
 
@@ -1598,7 +1616,7 @@ h6 {
 }
 
 #call-to-action {
-    background: #2d2b46;
+    background: #035962;
     background-size: cover;
     padding: 40px 0;
 }
@@ -1630,4 +1648,135 @@ h6 {
 #call-to-action .cta-btn:hover {
     background: #035962;
     border: 3px solid #035962;
+}
+
+
+/* Why Us Section
+--------------------------------*/
+
+#why-us {
+    padding: 60px 0;
+}
+
+#why-us .why-us-content .features {
+    margin: 0 0 15px 0;
+    padding: 0;
+    transition: 0.3s ease-in-out;
+}
+
+#why-us .why-us-content .features i {
+    font-size: 36px;
+    float: left;
+}
+
+#why-us .why-us-content .features h4 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 56px;
+    color: #035962;
+    margin-bottom: 5px;
+}
+
+#why-us .why-us-content .features p {
+    font-size: 16px;
+    margin-left: 56px;
+    color: #035962;
+}
+
+#why-us .counters {
+    padding-top: 40px;
+}
+
+#why-us .counters span {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    display: block;
+    color: #035962;
+}
+
+#why-us .counters p {
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #035962;
+}
+
+#school {
+    padding: 80px 0;
+    background: #035962;
+}
+
+#school .school-content {
+    padding-top: 40px;
+}
+
+#school .school-content h2 {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+#school .school-content h3 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 22px;
+    font-style: italic;
+}
+
+#school .school-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+#school .school-content ul li {
+    padding-bottom: 10px;
+}
+
+#school .school-content ul li i {
+    font-size: 20px;
+    padding-right: 4px;
+    color: #035962;
+}
+
+#school .school-img {
+    position: relative;
+    margin: 30px 30px 30px 30px;
+}
+
+#school .school-img img {
+    width: 100%;
+    /* border: 8px solid #fff; */
+    transition: .5s;
+}
+
+#school .school-img img:hover {
+    width: 100%;
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+}
+
+#school .school-img::before {
+    position: absolute;
+    left: -31px;
+    top: -30px;
+    width: 90%;
+    height: 92%;
+    z-index: -1;
+    content: '';
+    background-color: #035962;
+    transition: .5s;
+}
+
+#school .school-img::after {
+    position: absolute;
+    right: -31px;
+    bottom: -30px;
+    width: 90%;
+    height: 92%;
+    z-index: -1;
+    content: '';
+    background-color: #035962;
+    transition: .5s;
 }
