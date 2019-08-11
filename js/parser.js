@@ -6,6 +6,7 @@ app.set('view engine', 'ejs');
 
 
 app.get('/', function(req, res) {
+    res.render('homepage');
     MongoClient.connect(url, function(err, client) {
 
 
