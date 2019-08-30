@@ -154,3 +154,16 @@
     });
 
 })(jQuery);
+var owl = $(".screens-slider");
+owl.owlCarousel({
+    navigation: false,
+    pagination: true,
+    slideSpeed: 1000,
+    stopOnHover: true,
+    autoPlay: true,
+    addClassActive: true,
+    items: 3,
+    itemsDesktopSmall: [1024, 3],
+    itemsTablet: [600, 1],
+    itemsMobile: [479, 1]
+});

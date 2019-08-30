@@ -1880,3 +1880,60 @@ h6 {
 #features .show-box img {
     width: 100%;
 }
+
+
+/* ==========================================================================
+   Screenshot Style
+   ========================================================================== */
+
+#screenshots {
+    padding-bottom: 80px !important;
+}
+
+#screenshots .screenshot-thumb {
+    margin: 15px;
+    text-align: center;
+}
+
+#screenshots .screens-slider {
+    position: relative;
+}
+
+#screenshots .screens-slider .item img {
+    max-width: 100%;
+    height: auto;
+}
+
+#screenshots .screens-slider .owl-controls .owl-buttons {
+    position: relative;
+    top: -155px;
+    left: 0;
+}
+
+#screenshots .screens-slider .owl-controls .owl-buttons div.owl-prev {
+    float: left;
+    margin-left: -50px;
+}
+
+#screenshots .screens-slider .owl-controls .owl-buttons div.owl-next {
+    float: right !important;
+    margin-right: -50px;
+}
+
+#download {
+    background: #f6fbfd;
+    padding: 80px 0 0px;
+}
+
+#download .download-wrapper {
+    padding: 0px 30px;
+}
+
+#download .download-wrapper .download-text h4 {
+    font-size: 36px;
+}
+
+#download .btn {
+    margin: 20px 20px 0px 0px;
+    text-align: left;
+}
