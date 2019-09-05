@@ -18,11 +18,11 @@ a:focus {
 }
 
 #faq a {
-    color: #035962;
+    color: #1E1E1E;
 }
 
 a:focus {
-    color: #035962;
+    color: #1E1E1E;
     outline: none;
     text-decoration: none;
 }
@@ -46,7 +46,7 @@ h6 {
 }
 
 #abc {
-    color: #035962;
+    color: #1E1E1E;
 }
 
 .back-to-top {
@@ -133,13 +133,14 @@ h6 {
     right: 0;
     transition: all 0.5s;
     z-index: 997;
+    background-color: #575859;
 }
 
 #header.header-scrolled,
 #header.header-pages {
     height: 70px;
     padding: 15px 0;
-    background-color: #035962;
+    background-color: #1E1E1E;
     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
 }
 
@@ -211,7 +212,7 @@ h6 {
     border-radius: 4px;
     transition: 0.5s;
     color: #fff;
-    background: #035962;
+    background: #1E1E1E;
     color: #fff;
 }
 
@@ -236,11 +237,6 @@ h6 {
 
 /* Desktop Navigation */
 
-.main-nav {
-    /* Drop Down */
-    /* Deep Drop Down */
-}
-
 .main-nav,
 .main-nav * {
     margin: 0;
@@ -257,7 +253,7 @@ h6 {
 .main-nav a {
     display: block;
     position: relative;
-    color: #fff;
+    color: white;
     padding: 10px 15px;
     transition: 0.3s;
     font-size: 14px;
@@ -456,7 +452,7 @@ h6 {
 
 .why-header h3 {
     font-size: 36px;
-    color: #035962;
+    color: #000000;
     text-align: center;
     font-weight: 700;
     position: relative;
@@ -465,7 +461,7 @@ h6 {
 
 .pricing-header h3 {
     font-size: 36px;
-    color: #035962;
+    color: black;
     text-align: center;
     font-weight: 700;
     position: relative;
@@ -483,7 +479,7 @@ h6 {
 
 .faq-header h3 {
     font-size: 36px;
-    color: #035962;
+    color: #000;
     text-align: center;
     font-weight: 700;
     position: relative;
@@ -492,7 +488,7 @@ h6 {
 
 .team-header h3 {
     font-size: 36px;
-    color: #035962;
+    color: #1E1E1E;
     text-align: center;
     font-weight: 700;
     position: relative;
@@ -501,7 +497,7 @@ h6 {
 
 .portfolio-header h3 {
     font-size: 36px;
-    color: #035962;
+    color: #000;
     text-align: center;
     font-weight: 700;
     position: relative;
@@ -510,7 +506,7 @@ h6 {
 
 .client-header h3 {
     font-size: 36px;
-    color: #035962;
+    color: #000;
     text-align: center;
     font-weight: 700;
     position: relative;
@@ -531,7 +527,7 @@ h6 {
     margin: auto;
     font-size: 15px;
     padding-bottom: 60px;
-    color: #035962;
+    color: #000;
     width: 50%;
 }
 
@@ -540,13 +536,13 @@ h6 {
     margin: auto;
     font-size: 15px;
     padding-bottom: 60px;
-    color: #035962;
+    color: #000;
     width: 50%;
 }
 
 .service-header h3 {
     font-size: 36px;
-    color: #035962;
+    color: #1E1E1E;
     text-align: center;
     font-weight: 700;
     position: relative;
@@ -558,7 +554,7 @@ h6 {
     margin: auto;
     font-size: 15px;
     padding-bottom: 60px;
-    color: #035962;
+    color: #1E1E1E;
     width: 50%;
 }
 
@@ -568,11 +564,11 @@ h6 {
 
 
 /* .section-bg {
-    background: #035962;
+    background: #1E1E1E;
 } */
 
 .footer-bg {
-    background: #035962;
+    background: #575859;
 }
 
 
@@ -589,13 +585,13 @@ h6 {
 }
 
 #about .about-content h2 {
-    color: #035962;
+    color: #1E1E1E;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
 }
 
 #about .about-content h3 {
-    color: #035962;
+    color: #1E1E1E;
     font-weight: 400;
     font-size: 22px;
     font-style: italic;
@@ -613,7 +609,7 @@ h6 {
 #about .about-content ul li i {
     font-size: 20px;
     padding-right: 4px;
-    color: #035962;
+    color: #1E1E1E;
 }
 
 #about .about-img {
@@ -641,7 +637,7 @@ h6 {
     height: 92%;
     z-index: -1;
     content: '';
-    background-color: #035962;
+    background-color: #1E1E1E;
     transition: .5s;
 }
 
@@ -653,13 +649,13 @@ h6 {
     height: 92%;
     z-index: -1;
     content: '';
-    background-color: #035962;
+    background-color: #1E1E1E;
     transition: .5s;
 }
 
 #vision {
     padding: 80px 0;
-    background: #035962;
+    background: #1E1E1E;
 }
 
 #vision .vision-content {
@@ -779,7 +775,7 @@ h6 {
 }
 
 #services .title a {
-    color: #035962;
+    color: #1E1E1E;
 }
 
 #services .box:hover .title a {
@@ -910,7 +906,7 @@ h6 {
 #footer {
     padding: 0 0 30px 0;
     font-size: 14px;
-    background: #035962;
+    background: #1E1E1E;
 }
 
 #footer .footer-top {
@@ -1266,7 +1262,7 @@ h6 {
 
 #testimonials {
     padding: 60px 0;
-    background: #035962;
+    background: #1E1E1E;
 }
 
 #testimonials .section-header {
@@ -1284,7 +1280,7 @@ h6 {
     font-size: 20px;
     font-weight: bold;
     margin: 10px 0 5px 0;
-    color: #111;
+    color: #fff;
     margin-left: 140px;
 }
 
@@ -1461,7 +1457,7 @@ h6 {
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i,
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover i {
-    color: #035962;
+    color: #1E1E1E;
 }
 
 #portfolio .portfolio-item .portfolio-wrap:hover {
@@ -1492,7 +1488,7 @@ h6 {
     left: 0;
     width: 0%;
     height: 5px;
-    background-color: #035962;
+    background-color: #1E1E1E;
     transition: 0.5s;
 }
 
@@ -1564,7 +1560,7 @@ h6 {
     letter-spacing: 1px;
     border-radius: 3px;
     display: inline-block;
-    background: #035962;
+    background: #1E1E1E;
     color: #fff;
 }
 
@@ -1625,7 +1621,7 @@ h6 {
 }
 
 #call-to-action {
-    background: #035962;
+    background: #1E1E1E;
     background-size: cover;
     padding: 40px 0;
 }
@@ -1655,8 +1651,8 @@ h6 {
 }
 
 #call-to-action .cta-btn:hover {
-    background: #035962;
-    border: 3px solid #035962;
+    background: #1E1E1E;
+    border: 3px solid #1E1E1E;
 }
 
 
@@ -1682,14 +1678,14 @@ h6 {
     font-size: 24px;
     font-weight: 600;
     margin-left: 56px;
-    color: #035962;
+    color: #1E1E1E;
     margin-bottom: 5px;
 }
 
 #why-us .why-us-content .features p {
     font-size: 16px;
     margin-left: 56px;
-    color: #035962;
+    color: #1E1E1E;
 }
 
 #why-us .counters {
@@ -1701,7 +1697,7 @@ h6 {
     font-weight: bold;
     font-size: 48px;
     display: block;
-    color: #035962;
+    color: #1E1E1E;
 }
 
 #why-us .counters p {
@@ -1709,12 +1705,12 @@ h6 {
     margin: 0 0 20px 0;
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
-    color: #035962;
+    color: #1E1E1E;
 }
 
 #school {
     padding: 80px 0;
-    background: #035962;
+    background: #1E1E1E;
 }
 
 #school .school-content {
@@ -1746,7 +1742,7 @@ h6 {
 #school .school-content ul li i {
     font-size: 20px;
     padding-right: 4px;
-    color: #035962;
+    color: #1E1E1E;
 }
 
 #school .school-img {
@@ -1774,7 +1770,7 @@ h6 {
     height: 92%;
     z-index: -1;
     content: '';
-    background-color: #035962;
+    background-color: #1E1E1E;
     transition: .5s;
 }
 
@@ -1786,12 +1782,12 @@ h6 {
     height: 92%;
     z-index: -1;
     content: '';
-    background-color: #035962;
+    background-color: #1E1E1E;
     transition: .5s;
 }
 
 #features {
-    background: #035962;
+    background: #1E1E1E;
 }
 
 #features .icon {
@@ -1841,7 +1837,7 @@ h6 {
 }
 
 #features .box-item .icon i {
-    color: #035962;
+    color: #1E1E1E;
     font-size: 30px;
     -webkit-transition: all 0.2s linear;
     -moz-transition: all 0.2s linear;
@@ -1936,4 +1932,16 @@ h6 {
 #download .btn {
     margin: 20px 20px 0px 0px;
     text-align: left;
+}
+
+#location {
+    padding: 110px 0px 0px 0px;
+}
+
+.jumbotron {
+    background-color: white;
+}
+
+#maps iframe {
+    padding: 5px;
 }
